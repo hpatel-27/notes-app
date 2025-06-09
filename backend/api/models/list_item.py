@@ -1,5 +1,5 @@
 from django.db import models
-from task_list import TaskList
+from .task_list import TaskList
 
 
 class ListItem(models.Model):
